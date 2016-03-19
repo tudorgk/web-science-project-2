@@ -22,8 +22,7 @@ class CSVAnalyser:
         self.remove_invalid_entries()
 
     def remove_invalid_entries(self):
-        f1 = open('../tmp/not_removed.txt', 'w+')
-        f2 = open('../tmp/removed.txt', 'w+')
+        f2 = open('../tmp/sanitized.txt', 'w+')
 
         for i in range(self.imported_data[:,].shape[0]):
             rating = self.imported_data[i,1]
@@ -33,8 +32,9 @@ class CSVAnalyser:
                 row.append(int(rating))
                 row.append(text)
                 self.sanitized_data.append(row)
-        f2.write(str(self.sanitized_data))
 
+        self.sanitized_data = np.array(self.sanitized_data)
+        #f2.write(str(self.sanitized_data))
 
 
 def main():
