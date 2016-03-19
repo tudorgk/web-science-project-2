@@ -12,14 +12,13 @@ from urllib.parse import urlencode
 class SentimentV1:
     def __init__(self, data = None):
         self.data = data
+        self.results = []
 
     def run_analysis(self):
         f1 = open('../tmp/results.txt', 'w+')
 
-        results = []
-
-        #for i in range(self.data[:,].shape[0]):
-        for i in range(10):
+        for i in range(self.data[:,].shape[0]):
+            print(i)
             escaped = re.escape(self.data[i, 1].encode('utf-8'))
 
             post_data = {'text': escaped}
@@ -36,7 +35,10 @@ class SentimentV1:
             # Body is a byte string.
             # We have to know the encoding in order to print it to a text file
             # such as standard output.
-            print(body.decode('utf-8'))
+            response = body.decode('utf-8')
+            self.results.append(response)
+
+        f1.write(str(self.results))
 
 
 
