@@ -10,14 +10,21 @@ from os import listdir
 class CSVAnalyser:
     def __init__(self, csvfile = None):
         self.csvfile = csvfile
+        self.imported_data = None
+        np.set_printoptions(threshold=np.nan)
 
     def analyze(self):
         csv_reader = csv.reader(self.csvfile, delimiter=',')
         next(csv_reader, None)  # skip the headers
         data = [data for data in csv_reader]
-        data_array = np.asarray(data)
+        self.imported_data = np.asarray(data)
+        self.remove_invalid_entries()
 
-        print(data_array)
+
+    def remove_invalid_entries(self):
+        print(self.imported_data)
+        self.imported_data = self.imported_data[np.all(self.imported_data != '', axis=1)]
+        print(self.imported_data)
 
 
 
@@ -26,7 +33,6 @@ def main():
     parser.add_argument('csvfile', type=argparse.FileType('r'), help='CSV format <Stud|Rating|Link|Comment>')
     args = parser.parse_args()
 
-    print("csvfile" + str(args.csvfile))
     csv_analyser = CSVAnalyser(args.csvfile)
     csv_analyser.analyze()
 
