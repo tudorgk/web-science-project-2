@@ -3,8 +3,41 @@ import sys
 import glob
 import argparse
 import json
+import pycurl
 import numpy as np
-from os import listdir
+import re
+from io import BytesIO
+from urllib.parse import urlencode
+
+class SentimentV1:
+    def __init__(self, data = None):
+        self.data = data
+
+    def run_analysis(self):
+        f1 = open('../tmp/results.txt', 'w+')
+
+        results = []
+
+        #for i in range(self.data[:,].shape[0]):
+        for i in range(10):
+            escaped = re.escape(self.data[i, 1].encode('utf-8'))
+
+            post_data = {'text': escaped}
+
+            buffer = BytesIO()
+            c = pycurl.Curl()
+            c.setopt(c.URL, 'http://text-processing.com/api/sentiment/')
+            c.setopt(c.POSTFIELDS, urlencode(post_data))
+            c.setopt(c.WRITEDATA, buffer)
+            c.perform()
+            c.close()
+
+            body = buffer.getvalue()
+            # Body is a byte string.
+            # We have to know the encoding in order to print it to a text file
+            # such as standard output.
+            print(body.decode('utf-8'))
+
 
 
 class CSVAnalyser:
@@ -20,10 +53,9 @@ class CSVAnalyser:
         data = [data for data in csv_reader]
         self.imported_data = np.asarray(data)
         self.remove_invalid_entries()
+        return self.sanitized_data
 
     def remove_invalid_entries(self):
-        f2 = open('../tmp/sanitized.txt', 'w+')
-
         for i in range(self.imported_data[:,].shape[0]):
             rating = self.imported_data[i,1]
             text = self.imported_data[i,3]
@@ -34,6 +66,8 @@ class CSVAnalyser:
                 self.sanitized_data.append(row)
 
         self.sanitized_data = np.array(self.sanitized_data)
+
+        #f2 = open('../tmp/sanitized.txt', 'w+')
         #f2.write(str(self.sanitized_data))
 
 
@@ -43,8 +77,10 @@ def main():
     args = parser.parse_args()
 
     csv_analyser = CSVAnalyser(args.csvfile)
-    csv_analyser.analyze()
+    data = csv_analyser.analyze()
 
+    sentiment_analyzer = SentimentV1(data)
+    sentiment_analyzer.run_analysis()
 
 if __name__ == "__main__":
     # execute only if run as a script
