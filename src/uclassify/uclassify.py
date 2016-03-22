@@ -32,7 +32,7 @@ import base64
 
 class uclassify:
     def __init__(self):
-        self.api_url = "http://api.uclassify.com"
+        self.api_url = "https://api.uclassify.com"
         self.writeApiKey=None
         self.readApiKey=None
 
@@ -422,31 +422,4 @@ class uclassify:
                 raise uClassifyError(text,status_code)
         else:
             raise uClassifyError("Bad XML Request Sent")
-            
 
-
-    '''
-
-if __name__ == "__main__":
-
-    a = uclassify()
-    a.setWriteApiKey("fsqAft7Hs29BgAc1AWeCIWdGnY")
-    a.setReadApiKey("aD02ApbU29kNOG2xezDGXPEIck")
-
-    try:
-        a.removeClassifier("lego_classifier_tudor")
-    except:
-        pass
-
-    a.create("lego_classifier_tudor")
-
-    a.addClass(["pos","neg","neutral"],"a1ora2") #Adds two class named "man" and "woman" to the classifier "ManorWoman"
-
-    a.train(["Her hair is so nice!!","I wish I had more cosmetic.","I like those ice creams."],"pos","a1ora2")
-    #The above function trains three sentences for the class "woman" on the classifier "ManorWoman"
-
-    d = a.classify(["You are a lazy dick","hey you good looking ice creams"],"a1ora2")
-
-    print(d)
-    #Now the list d will contain the following value [('sample text1', u'0', [(u'man', u'0.5'), (u'woman', u'0.5')]), ('sample text2', u'0', [(u'man', u'0.5'), (u'woman', u'0.5')])]
-    '''

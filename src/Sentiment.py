@@ -1,28 +1,90 @@
 import csv
-import sys
-import glob
 import argparse
 import json
-from io import StringIO
+from uclassify import uclassify
+from sklearn.cross_validation import KFold
 import ast
 import pycurl
 import numpy as np
 import re
 from io import BytesIO
 import urllib
+from warnings import warn
 
+import string
+import random
+def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
+    return ''.join(random.choice(chars) for _ in range(size))
 
 class AccuracyAnalyzer:
     def __init__(self, senftimentV1_data = None, senftimentV2_data = None):
         self.sentimentV1_data = senftimentV1_data
-        self.sentimentV2_data = senftimentV2_data
 
     def run_analysis(self):
         print("Run AccuracyAnalyzer")
         print(self.sentimentV1_data.shape)
 
+class SentimentV1Classifier:
+    def __init__(self, senftimentV1_data = None, senftimentV2_data = None):
+        self.sentimentV1_data = senftimentV1_data
+        self.classifier_name = id_generator(10)
+        self.classifier = uclassify()
+        self.classifier.setWriteApiKey("6jYmrGb25nVC")
+        self.classifier.setReadApiKey("lNin5wW4Mod5")
 
-class SentimentV1:
+
+    def cross_validate_classification(self):
+
+        file_name = 0
+        #3-fold validation
+        kf = KFold(len(self.sentimentV1_data), n_folds=3)
+        for train_index, test_index in kf:
+            self.classifier.addClass(["pos", "neg", "neutral"], self.classifier_name)
+            X_train, X_test = self.sentimentV1_data[train_index], self.sentimentV1_data[test_index]
+            neg_train = []
+            neutral_train = []
+            pos_train = []
+            test = []
+            for i in range(X_train[:, ].shape[0]):
+                if X_train[i, 0] == '-1':
+                    neg_train.append(X_train[i, 1])
+                elif X_train[i, 0] == '0':
+                    neutral_train.append(X_train[i, 1])
+                else:
+                    pos_train.append(X_train[i, 1])
+
+            for j in range(X_test[:, ].shape[0]):
+                test.append(X_test[j, 1])
+
+            # set train tests
+            self.classifier.train(neg_train,
+                                  "neg", self.classifier_name)
+            self.classifier.train(neutral_train,
+                                  "neutral", self.classifier_name)
+            self.classifier.train(pos_train,
+                                  "pos", self.classifier_name)
+
+            # classify
+            output = self.classifier.classify(test, self.classifier_name)
+
+            # write to file
+            f1 = open('../tmp/classified_set' + str(file_name) + '.txt', 'w+')
+            f1.write(str(output))
+
+            file_name += 1
+            self.classifier.removeClass(["pos", "neg", "neutral"], self.classifier_name)
+
+
+
+    def run_classifier(self):
+        self.classifier.create(self.classifier_name)
+
+        self.cross_validate_classification()
+
+        self.classifier.removeClassifier(self.classifier_name)
+
+warn("Not used!")
+class DownloadSentiments:
     def __init__(self, data = None):
         self.data = data
         self.results = []
@@ -81,7 +143,7 @@ class SentimentV1:
                 else:
                     raw_value = 0
 
-                row = [self.data[i, 0], raw_value]
+                row = [self.data[i, 1], self.data[i, 0], raw_value]
                 self.sentimentV1_data.append(row)
 
             except:
@@ -140,11 +202,9 @@ def main():
     csv_analyser = CSVAnalyser(args.csvfile)
     data = csv_analyser.analyze()
 
-    sentiment_analyzer = SentimentV1(data)
-    sentimentV1 = sentiment_analyzer.run_analysis()
-
-    accuracy_analyzer = AccuracyAnalyzer(sentimentV1)
-    accuracy_analyzer.run_analysis()
+    #print(data)
+    v1Classifier = SentimentV1Classifier(data)
+    v1Classifier.run_classifier()
 
 
 if __name__ == "__main__":
