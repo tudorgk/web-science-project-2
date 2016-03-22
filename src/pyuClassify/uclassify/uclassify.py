@@ -423,13 +423,28 @@ class uclassify:
         else:
             raise uClassifyError("Bad XML Request Sent")
             
-    
+
+
+class DataImporter:
+    def __init__(self, file = None):
+        self.data_file = file
+
+
 if __name__ == "__main__":
+
+
+
+    '''
     a = uclassify()
     a.setWriteApiKey("fsqAft7Hs29BgAc1AWeCIWdGnY")
     a.setReadApiKey("aD02ApbU29kNOG2xezDGXPEIck")
-    a.removeClassifier("a1ora2")
-    a.create("a1ora2") #Creates Classifier named "ManorWoman"
+
+    try:
+        a.removeClassifier("lego_classifier_tudor")
+    except:
+        pass
+
+    a.create("lego_classifier_tudor")
 
     a.addClass(["pos","neg","neutral"],"a1ora2") #Adds two class named "man" and "woman" to the classifier "ManorWoman"
 
@@ -440,3 +455,4 @@ if __name__ == "__main__":
 
     print(d)
     #Now the list d will contain the following value [('sample text1', u'0', [(u'man', u'0.5'), (u'woman', u'0.5')]), ('sample text2', u'0', [(u'man', u'0.5'), (u'woman', u'0.5')])]
+    '''

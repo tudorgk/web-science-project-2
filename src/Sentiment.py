@@ -9,7 +9,18 @@ import pycurl
 import numpy as np
 import re
 from io import BytesIO
-from urllib.parse import urlencode
+import urllib
+
+
+class AccuracyAnalyzer:
+    def __init__(self, senftimentV1_data = None, senftimentV2_data = None):
+        self.sentimentV1_data = senftimentV1_data
+        self.sentimentV2_data = senftimentV2_data
+
+    def run_analysis(self):
+        print("Run AccuracyAnalyzer")
+        print(self.sentimentV1_data.shape)
+
 
 class SentimentV1:
     def __init__(self, data = None):
@@ -25,15 +36,15 @@ class SentimentV1:
         f1 = open('../tmp/results.txt', 'w+')
 
         for i in range(self.data[:, ].shape[0]):
-            print("Downloading entry" + i)
-            escaped = re.escape(self.data[i, 1].encode('utf-8'))
+            print("Downloading entry " + str(i))
+            escaped = re.escape(self.data[i, 1])
 
             post_data = {'text': escaped}
 
             buffer = BytesIO()
             c = pycurl.Curl()
             c.setopt(c.URL, 'http://text-processing.com/api/sentiment/')
-            c.setopt(c.POSTFIELDS, urlencode(post_data))
+            c.setopt(c.POSTFIELDS, urllib.urlencode(post_data))
             c.setopt(c.WRITEDATA, buffer)
             c.perform()
             c.close()
@@ -70,7 +81,7 @@ class SentimentV1:
                 else:
                     raw_value = 0
 
-                row = [self.data[i, 0],raw_value]
+                row = [self.data[i, 0], raw_value]
                 self.sentimentV1_data.append(row)
 
             except:
@@ -78,6 +89,7 @@ class SentimentV1:
                 self.index_to_remove.append(i)
                 pass
 
+        self.sentimentV1_data = np.array(self.sentimentV1_data)
         print(self.sentimentV1_data)
 
     def run_analysis(self):
@@ -85,6 +97,7 @@ class SentimentV1:
         #self.download_sentiments()
         self.import_mined_json()
         self.construct_arrays()
+        return self.sentimentV1_data
 
 
 
@@ -104,9 +117,9 @@ class CSVAnalyser:
         return self.sanitized_data
 
     def remove_invalid_entries(self):
-        for i in range(self.imported_data[:,].shape[0]):
-            rating = self.imported_data[i,1]
-            text = self.imported_data[i,3]
+        for i in range(self.imported_data[:, ].shape[0]):
+            rating = self.imported_data[i, 1]
+            text = self.imported_data[i, 3]
             row = []
             if rating == '1' or rating == '-1' or rating == '0':
                 row.append(int(rating))
@@ -128,7 +141,11 @@ def main():
     data = csv_analyser.analyze()
 
     sentiment_analyzer = SentimentV1(data)
-    sentiment_analyzer.run_analysis()
+    sentimentV1 = sentiment_analyzer.run_analysis()
+
+    accuracy_analyzer = AccuracyAnalyzer(sentimentV1)
+    accuracy_analyzer.run_analysis()
+
 
 if __name__ == "__main__":
     # execute only if run as a script
