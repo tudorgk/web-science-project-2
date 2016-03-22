@@ -1,4 +1,5 @@
 import csv
+import sys
 import argparse
 import json
 from uclassify import uclassify
@@ -10,6 +11,7 @@ import re
 from io import BytesIO
 import urllib
 from warnings import warn
+import itertools
 
 import string
 import random
@@ -74,14 +76,24 @@ class SentimentV1Classifier:
             file_name += 1
             self.classifier.removeClass(["pos", "neg", "neutral"], self.classifier_name)
 
+    def analyze_data_from_classifier(self):
+        #3-Fold
+        for i in range(0,3):
+            f = open('../tmp/classified_set' + str(i) + '.txt', 'r')
+            result_string = f.read()
+            tuple_list = ast.literal_eval(result_string)
+            for iter, (text, _, [(_, neg_value),(_, neutral_value),(_, pos_value)]) in enumerate(tuple_list):
+                # iterate through the list
+                
 
+            f.close()
 
     def run_classifier(self):
-        self.classifier.create(self.classifier_name)
+        #self.classifier.create(self.classifier_name)
+        #self.cross_validate_classification()
+        #self.classifier.removeClassifier(self.classifier_name)
+        self.analyze_data_from_classifier()
 
-        self.cross_validate_classification()
-
-        self.classifier.removeClassifier(self.classifier_name)
 
 warn("Not used!")
 class DownloadSentiments:

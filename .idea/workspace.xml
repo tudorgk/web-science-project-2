@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ade02200-0c1a-441f-b6e6-0d9b7e512d85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uclassify/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uclassify/uclassify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uclassify/uclassify_eh.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uclassify/uclassify_endpoints.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sentiment.py" afterPath="$PROJECT_DIR$/src/Sentiment.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py" afterPath="$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py" />
     </list>
@@ -30,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Sentiment.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sentiment.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sentiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.888889">
-              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.45180723">
+              <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -62,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classified_set2.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="classified_set2.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tmp/classified_set2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22292994">
-              <caret line="0" column="941" selection-start-line="0" selection-start-column="941" selection-end-line="0" selection-end-column="941" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="2094" selection-start-line="0" selection-start-column="2094" selection-end-line="0" selection-end-column="2094" />
               <folding />
             </state>
           </provider>
@@ -125,8 +119,8 @@
       <file leaf-file-name="uclassify.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-55.0">
-              <caret line="120" column="14" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="14" />
+            <state vertical-scroll-proportion="-14.111111">
+              <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
               <folding>
                 <element signature="e#1040#1076#0" expanded="true" />
               </folding>
@@ -155,8 +149,9 @@
         <option value="$PROJECT_DIR$/tmp/results.txt" />
         <option value="$PROJECT_DIR$/src/uClassify.py" />
         <option value="$PROJECT_DIR$/src/myuClassify.py" />
-        <option value="$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py" />
         <option value="$PROJECT_DIR$/src/uclassify/uclassify.py" />
+        <option value="$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py" />
+        <option value="$PROJECT_DIR$/tmp/classified_set0.txt" />
         <option value="$PROJECT_DIR$/src/Sentiment.py" />
       </list>
     </option>
@@ -885,34 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-55.0">
-          <caret line="120" column="14" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="14" />
-          <folding>
-            <element signature="e#1040#1076#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.888889">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/classified_set0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/classified_set1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -923,9 +890,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/classified_set2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22292994">
-          <caret line="0" column="941" selection-start-line="0" selection-start-column="941" selection-end-line="0" selection-end-column="941" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="2094" selection-start-line="0" selection-start-column="2094" selection-end-line="0" selection-end-column="2094" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.111111">
+          <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
+          <folding>
+            <element signature="e#1040#1076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/classified_set0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sentiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45180723">
+          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
