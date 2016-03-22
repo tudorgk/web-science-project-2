@@ -1,3 +1,4 @@
+from __future__ import division
 import csv
 import sys
 import argparse
@@ -12,6 +13,7 @@ from io import BytesIO
 import urllib
 from warnings import warn
 import itertools
+
 
 import string
 import random
@@ -81,12 +83,32 @@ class SentimentV1Classifier:
         for i in range(0,3):
             f = open('../tmp/classified_set' + str(i) + '.txt', 'r')
             result_string = f.read()
+            f.close()
             tuple_list = ast.literal_eval(result_string)
+            nr_successful_hits = 0
             for iter, (text, _, [(_, neg_value),(_, neutral_value),(_, pos_value)]) in enumerate(tuple_list):
                 # iterate through the list
-                
+                values = [float(neg_value),float(neutral_value),float(pos_value)]
+                index = values.index(max(values))
+                if index == 0:
+                    rating_value = -1
+                elif index == 1:
+                    rating_value = 0
+                else:
+                    rating_value = 1
+                found = False
+                for j in range(self.sentimentV1_data[:, ].shape[0]):
+                    if text == self.sentimentV1_data[j, 1]:
+                        found = True
+                        real_rating = int(self.sentimentV1_data[j, 0])
+                        if real_rating == rating_value:
+                            nr_successful_hits += 1
 
-            f.close()
+                if not found:
+                    print ("error on text: " + text)
+
+            print (nr_successful_hits/len(tuple_list))
+
 
     def run_classifier(self):
         #self.classifier.create(self.classifier_name)
