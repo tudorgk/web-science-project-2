@@ -12,24 +12,46 @@ import re
 from io import BytesIO
 import urllib
 from warnings import warn
-import itertools
-
-
+import subprocess
+import os
 import string
 import random
+
+
 def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
-class AccuracyAnalyzer:
-    def __init__(self, senftimentV1_data = None, senftimentV2_data = None):
-        self.sentimentV1_data = senftimentV1_data
+class cd:
+    """Context manager for changing the current working directory"""
+    def __init__(self, newPath):
+        self.newPath = os.path.expanduser(newPath)
 
-    def run_analysis(self):
-        print("Run AccuracyAnalyzer")
-        print(self.sentimentV1_data.shape)
+    def __enter__(self):
+        self.savedPath = os.getcwd()
+        os.chdir(self.newPath)
+
+    def __exit__(self, etype, value, traceback):
+        os.chdir(self.savedPath)
+
+
+class SentimentV2Classifier:
+    def __init__(self, senftimentV2_data = None):
+        self.sentimentV2_data = senftimentV2_data
+
+    def run_classifier(self):
+        print("Run V2 classifier")
+        #for i in range(self.sentimentV2_data[:, ].shape[0]):
+        for i in range(10):
+            with cd("../sentiment-mining-apps/stanford/stanford-corenlp"):
+                f = open('aux_text.txt', 'w+')
+                f.write(self.sentimentV2_data[i, 1])
+                f.close()
+                output = os.system("java -cp \"*\" -mx5g edu.stanford.nlp.sentiment.SentimentPipeline -file aux_text.txt")
+                print output
+
 
 class SentimentV1Classifier:
-    def __init__(self, senftimentV1_data = None, senftimentV2_data = None):
+    def __init__(self, senftimentV1_data = None):
         self.sentimentV1_data = senftimentV1_data
         self.classifier_name = id_generator(10)
         self.classifier = uclassify()
@@ -236,9 +258,11 @@ def main():
     csv_analyser = CSVAnalyser(args.csvfile)
     data = csv_analyser.analyze()
 
-    #print(data)
-    v1Classifier = SentimentV1Classifier(data)
-    v1Classifier.run_classifier()
+    #v1Classifier = SentimentV1Classifier(data)
+    #v1Classifier.run_classifier()
+
+    v2Classifier = SentimentV2Classifier(data)
+    v2Classifier.run_classifier()
 
 
 if __name__ == "__main__":
