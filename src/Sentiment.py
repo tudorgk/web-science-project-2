@@ -41,13 +41,33 @@ class SentimentV2Classifier:
     def run_classifier(self):
         print("Run V2 classifier")
         #for i in range(self.sentimentV2_data[:, ].shape[0]):
-        for i in range(10):
-            with cd("../sentiment-mining-apps/stanford/stanford-corenlp"):
-                f = open('aux_text.txt', 'w+')
-                f.write(self.sentimentV2_data[i, 1])
-                f.close()
-                output = os.system("java -cp \"*\" -mx5g edu.stanford.nlp.sentiment.SentimentPipeline -file aux_text.txt")
-                print output
+        file_name_suffix = 0
+        # 3-fold validation
+        kf = KFold(len(self.sentimentV2_data), n_folds=3)
+        for train_index, test_index in kf:
+            # write to file
+            f1 = open('../tmp/corenlp/train_set' + str(file_name_suffix) + '.txt', 'w+')
+            f2 = open('../tmp/corenlp/test_set' + str(file_name_suffix) + '.txt', 'w+')
+            X_train, X_test = self.sentimentV2_data[train_index], self.sentimentV2_data[test_index]
+            for i in range(X_train[:, ].shape[0]):
+                score = 0
+                # transform to coreNLP scale
+                if X_train[i, 0] == '-1':
+                    score = 1
+                elif X_train[i, 0] == '0':
+                    score = 2
+                else:
+                    score = 3
+
+                f1.write(str(score) + "\t" + X_train[i,1] + "\n")
+                f1.write("\n")
+            for i in range(X_test[:, ].shape[0]):
+                f2.write(X_test[i, 1] + "\n")
+
+            file_name_suffix += 1
+            f1.close()
+            f2.close()
+
 
 
 class SentimentV1Classifier:

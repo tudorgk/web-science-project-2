@@ -2,117 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ade02200-0c1a-441f-b6e6-0d9b7e512d85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/StanfordDependenciesManual.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/ejml-0.23-src.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/ejml-0.23.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/javax.json-api-1.0-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/javax.json.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/joda-time-2.9-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/joda-time.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/jollyday-0.4.7-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/jollyday.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/stanford-corenlp-3.6.0-models.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/protobuf.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/slf4j-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/slf4j-simple.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/stanford-corenlp-3.6.0-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/stanford-corenlp-3.6.0-models.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/stanford-corenlp-3.6.0-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/stanford-corenlp-3.6.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/xom-1.2.10-src.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/xom.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/Maven__com_googlecode_efficient_java_matrix_library_ejml_0_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/Maven__com_io7m_xom_xom_1_2_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/Maven__de_jollyday_jollyday_0_4_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/Maven__javax_json_javax_json_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/Maven__joda_time_joda_time_2_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/Maven__xalan_xalan_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/Maven__xerces_xercesImpl_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/Maven__xml_apis_xml_apis_1_3_03.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/libraries/stanford_corenlp_full_2015_12_09.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/.idea/libraries/stanford_corenlp_full_2015_12_09.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/CoreNLP-to-HTML.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/LIBRARY-LICENSES" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/corenlp.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/input.txt.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/input.txt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/patterns/example.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/patterns/goldnames.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/patterns/goldplaces.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/patterns/names.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/patterns/otherpeople.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/patterns/places.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/patterns/presidents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/patterns/stopwords.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/stanford-corenlp-full-2015-12-09.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/sutime/defs.sutime.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/sutime/english.holidays.sutime.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/sutime/english.sutime.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/tokensregex/color.input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/tokensregex/color.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/tokensregex/color.rules.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/tokensregex/retokenize.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/CoreNLP-to-HTML.xsl" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/CoreNLP-to-HTML.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/LIBRARY-LICENSES" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/LIBRARY-LICENSES" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/LICENSE.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/Makefile" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/Makefile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/README.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/README.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/SemgrexDemo.java" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/SemgrexDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/ShiftReduceDemo.java" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/ShiftReduceDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/StanfordCoreNlpDemo.java" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/StanfordCoreNlpDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/StanfordDependenciesManual.pdf" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/StanfordDependenciesManual.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/build.xml" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/build.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/corenlp.sh" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/corenlp.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/ejml-0.23-src.zip" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/ejml-0.23-src.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/ejml-0.23.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/ejml-0.23.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/input.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/input.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/input.txt.out" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/input.txt.out" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/input.txt.xml" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/input.txt.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/javax.json-api-1.0-sources.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/javax.json-api-1.0-sources.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/javax.json.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/javax.json.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/joda-time-2.9-sources.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/joda-time-2.9-sources.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/joda-time.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/joda-time.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/jollyday-0.4.7-sources.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/jollyday-0.4.7-sources.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/jollyday.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/jollyday.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/patterns/example.properties" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/patterns/example.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/patterns/goldnames.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/patterns/goldnames.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/patterns/goldplaces.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/patterns/goldplaces.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/patterns/names.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/patterns/names.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/patterns/otherpeople.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/patterns/otherpeople.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/patterns/places.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/patterns/places.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/patterns/presidents.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/patterns/presidents.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/patterns/stopwords.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/patterns/stopwords.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/pom.xml" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/protobuf.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/protobuf.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/slf4j-api.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/slf4j-api.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/slf4j-simple.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/slf4j-simple.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/stanford-corenlp-3.6.0-javadoc.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/stanford-corenlp-3.6.0-javadoc.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/stanford-corenlp-3.6.0-sources.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/stanford-corenlp-3.6.0-sources.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/stanford-corenlp-3.6.0.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/stanford-corenlp-3.6.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/sutime/defs.sutime.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/sutime/defs.sutime.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/sutime/english.holidays.sutime.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/sutime/english.holidays.sutime.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/sutime/english.sutime.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/sutime/english.sutime.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/tokensregex/color.input.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/tokensregex/color.input.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/tokensregex/color.properties" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/tokensregex/color.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/tokensregex/color.rules.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/tokensregex/color.rules.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/tokensregex/retokenize.txt" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/tokensregex/retokenize.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/xom-1.2.10-src.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/xom-1.2.10-src.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/Stanford CoreNLP/xom.jar" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/xom.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/BuildTrainingSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/LEGOClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/corenlp/binary/binary_train_0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/corenlp/binary/binary_train_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/corenlp/test_set0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/corenlp/test_set1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/corenlp/test_set2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/corenlp/train_set0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/corenlp/train_set1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/corenlp/train_set2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/StanfordCoreNlpDemo.java" afterPath="$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/StanfordCoreNlpDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sentiment.py" afterPath="$PROJECT_DIR$/src/Sentiment.py" />
     </list>
     <ignored path="web-science-project-2.iws" />
@@ -134,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Sentiment.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sentiment.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sentiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.392">
-              <caret line="48" column="101" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="101" />
+            <state relative-caret-position="675">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -146,94 +49,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profiles_settings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/.idea/copyright/profiles_settings.xml">
+      <file leaf-file-name="train_set0.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/corenlp/train_set0.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binary_train_0" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/corenlp/binary/binary_train_0">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="654">
+              <caret line="2594" column="331" selection-start-line="2594" selection-start-column="331" selection-end-line="2594" selection-end-column="331" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binary_train_1" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/corenlp/binary/binary_train_1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aux_text.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/aux_text.txt">
+      <file leaf-file-name="binary_train_2" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tmp/corenlp/binary/binary_train_2">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subprocess.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py">
+      <file leaf-file-name="train_set2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/corenlp/train_set2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1334" column="0" selection-start-line="1334" selection-start-column="0" selection-end-line="1334" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classified_set2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/classified_set2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="2094" selection-start-line="0" selection-start-column="2094" selection-end-line="0" selection-end-column="2094" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pyuClassify/README.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/uclassify/__init__.py">
+      <file leaf-file-name="test_set1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/corenlp/test_set1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uclassify.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/uclassify/uclassify.py">
+      <file leaf-file-name="test_set2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/corenlp/test_set2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uclassify_endpoints.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/uclassify/uclassify_endpoints.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uclassify.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py">
+      <file leaf-file-name="train_set1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/corenlp/train_set1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
-              <folding>
-                <element signature="e#1040#1076#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_set0.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/corenlp/test_set0.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -264,6 +165,9 @@
         <option value="$PROJECT_DIR$/tmp/classified_set0.txt" />
         <option value="$PROJECT_DIR$/results/sentimentV1.txt" />
         <option value="$PROJECT_DIR$/src/Sentiment.py" />
+        <option value="$PROJECT_DIR$/tmp/corenlp/binary/binary_train_0" />
+        <option value="$PROJECT_DIR$/tmp/corenlp/binary/binary_train_1" />
+        <option value="$PROJECT_DIR$/tmp/corenlp/binary/binary_train_2" />
       </list>
     </option>
   </component>
@@ -272,6 +176,25 @@
     <option name="y" value="23" />
     <option name="width" value="1394" />
     <option name="height" value="877" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -298,7 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -345,61 +267,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corenlp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-science-project-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-science-project-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corenlp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-science-project-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-science-project-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-science-project-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-science-project-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentiment-mining-apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanford" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-science-project-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-science-project-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentiment-mining-apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanford" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanford-corenlp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-science-project-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-science-project-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentiment-mining-apps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,6 +341,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -474,6 +383,18 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="web-science-project-2" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -620,7 +541,9 @@
       <item index="1" class="java.lang.String" itemvalue="Python.pyuClassifier" />
     </list>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -629,31 +552,32 @@
       <changelist id="ade02200-0c1a-441f-b6e6-0d9b7e512d85" name="Default" comment="" />
       <created>1458376345389</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1458376345389</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1394" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24836126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24763292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981792" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39898348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4254777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39898348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -672,92 +596,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pyuClassify/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uclassify/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uclassify/uclassify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uclassify/uclassify_endpoints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
-          <folding>
-            <element signature="e#1040#1076#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#1040#1076#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="76446" selection-start-line="0" selection-start-column="76389" selection-end-line="0" selection-end-column="76446" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/sanitized.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="878" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="878" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/removed.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2119231" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -767,21 +615,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/results.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="2743" selection-start-line="0" selection-start-column="2743" selection-end-line="0" selection-end-column="2743" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/sanitized.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="15" column="878" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="878" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -791,21 +639,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/results.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="2743" selection-start-line="0" selection-start-column="2743" selection-end-line="0" selection-end-column="2743" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/sanitized.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="15" column="878" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="878" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -815,21 +663,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/removed.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/not_removed.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -839,21 +687,21 @@
     </entry>
     <entry file="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/argparse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.332">
+        <state relative-caret-position="0">
           <caret line="586" column="0" selection-start-line="586" selection-start-column="0" selection-end-line="586" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/not_removed.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="356" column="0" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
         </state>
       </provider>
@@ -865,187 +713,175 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pycurl-7.43.0/doc/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycurl-7.43.0/doc/curl.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycurl-7.43.0/doc/files.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycurl-7.43.0/doc/docstrings/curl.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycurl-7.43.0/doc/docstrings/multi.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycurl-7.43.0/doc/docstrings/share.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycurl-7.43.0/doc/docstrings/curl_close.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycurl-7.43.0/doc/docstrings/curl_pause.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/results2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycurl-7.43.0/doc/index.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/results.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="76446" selection-start-line="0" selection-start-column="76389" selection-end-line="0" selection-end-column="76446" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/removed.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2119231" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/sanitized.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="15" column="878" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="878" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uclassify/uclassify_eh.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/results/sentimentV1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/classified_set0.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/classified_set1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/classified_set2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="2094" selection-start-line="0" selection-start-column="2094" selection-end-line="0" selection-end-column="2094" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pyuClassify/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uclassify/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uclassify/uclassify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="435">
           <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uclassify/uclassify_endpoints.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pyuClassify/uclassify/uclassify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="6300">
           <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
-          <folding>
-            <element signature="e#1040#1076#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="20010">
           <caret line="1334" column="0" selection-start-line="1334" selection-start-column="0" selection-end-line="1334" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/aux_text.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1053,7 +889,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sentiment-mining-apps/stanford/stanford-corenlp/out/production/stanford-corenlp-full-2015-12-09/.idea/copyright/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/corenlp/test_set1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/corenlp/train_set1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/corenlp/test_set2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1061,11 +921,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.392">
-          <caret line="48" column="101" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="101" />
+        <state relative-caret-position="675">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/corenlp/test_set0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/corenlp/train_set2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/corenlp/train_set0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/corenlp/binary/binary_train_0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="2594" column="331" selection-start-line="2594" selection-start-column="331" selection-end-line="2594" selection-end-column="331" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/corenlp/binary/binary_train_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/corenlp/binary/binary_train_2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
