@@ -3,6 +3,10 @@ import csv
 import sys
 import argparse
 import json
+import nltk
+nltk.download('punkt')
+from nltk.tokenize import sent_tokenize
+
 from uclassify import uclassify
 from sklearn.cross_validation import KFold
 import ast
@@ -49,6 +53,10 @@ class SentimentV2Classifier:
             f1 = open('../tmp/corenlp/train_set' + str(file_name_suffix) + '.txt', 'w+')
             f2 = open('../tmp/corenlp/test_set' + str(file_name_suffix) + '.txt', 'w+')
             X_train, X_test = self.sentimentV2_data[train_index], self.sentimentV2_data[test_index]
+
+            f1.write("\n")
+            f2.write("\n")
+
             for i in range(X_train[:, ].shape[0]):
                 score = 0
                 # transform to coreNLP scale
@@ -58,11 +66,23 @@ class SentimentV2Classifier:
                     score = 2
                 else:
                     score = 3
-
-                f1.write(str(score) + "\t" + X_train[i,1] + "\n")
-                f1.write("\n")
+                sent_tokenize_list = sent_tokenize(X_train[i, 1].decode('utf-8'))
+                for j in range(len(sent_tokenize_list)):
+                    f1.write(str(score) + "\t" + str(sent_tokenize_list[j].encode('utf-8')) + "\n")
+                    f1.write("\n")
             for i in range(X_test[:, ].shape[0]):
-                f2.write(X_test[i, 1] + "\n")
+                score = 0
+                # transform to coreNLP scale
+                if X_test[i, 0] == '-1':
+                    score = 1
+                elif X_test[i, 0] == '0':
+                    score = 2
+                else:
+                    score = 3
+
+                f2.write(str(score) + "\n")
+                f2.write(str(X_test[i, 1] + "\n"))
+                f2.write("\n")
 
             file_name_suffix += 1
             f1.close()
